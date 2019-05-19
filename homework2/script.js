@@ -15,12 +15,12 @@ window.onload = function() {
   }
 
   if  (num = 2)  { 
-    bottleSentence = (num + ' bottles of beer on the wall, ' + num + ' bottles of beer. Take one down and pass it around, ' + (num-1) + ' bottle of beer on the wall.');
+    bottleSentence = (`${num} bottles of beer on the wall, ${num} bottles of beer. Take one down and pass it around, ${num-1} bottle of beer on the wall.`);
     addToList(sentenceList, bottleSentence)
   }   
 
   if  (num = 1)  { 
-    bottleSentence = (num + ' bottle of beer on the wall, ' + num + ' bottle of beer. Take one down and pass it around, ' + (num-1) + ' bottles of beer on the wall.');
+    bottleSentence = (`${num} bottle of beer on the wall, ${num} bottle of beer. Take one down and pass it around, ${num-1} bottles of beer on the wall.`);
     addToList(sentenceList, bottleSentence)
   }
 }
